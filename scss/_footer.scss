@@ -1,4 +1,35 @@
+$color-letra : #f0f8ff;
+$color-footer: #1e1e1e;
+
 .footer{
-    background-color: $color-negro;
+    display: flex;
+    flex-direction: row;
+    background-color: $color-footer;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
     
+}
+
+
+.footer__p{
+    color: $color-letra;
+    position:relative;
+    left: 15px;
+}
+
+.iconos{
+    position:relative;
+    right: 15px;
+}
+.icon-ig{
+    content: url('https://api.iconify.design/mdi/instagram.svg?color=%23ffe&width=48&height=48');
+}
+
+.icon-fb{
+    content: url('https://api.iconify.design/ph/facebook-logo-bold.svg?color=%23ffe&width=48&height=48');
+}
+
+.icon-ws{
+    content: url('https://api.iconify.design/ic/baseline-whatsapp.svg?color=%23ffe&width=48&height=48');
 }

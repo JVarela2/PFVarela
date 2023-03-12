@@ -1,5 +1,5 @@
 $color-negro-main: #333333b2;
-$main-ancho: 90vw;
+$main-ancho: 99vw;
 
 .MainIndex__Titulo{
     font-family: 'OpenSans';
@@ -9,13 +9,14 @@ $main-ancho: 90vw;
     top: 10px;
     text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000;
 }
-
+.MainIndex{
+    background-color: $color-negro-main;
+}
 .MainIndex__Flexbox{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100vw;
-    background-color: $color-negro-main;
+    width: $main-ancho;
     height: 70vh;
    
 }

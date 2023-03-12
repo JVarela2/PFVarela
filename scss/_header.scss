@@ -1,6 +1,6 @@
 
 
-$header-ancho: 100vw;
+$header-ancho: 99vw;
 $header-largo: 12vh;
 
 
@@ -18,7 +18,8 @@ $header-largo: 12vh;
 
 }
 .ContenedorHeader{
-  
+    position: sticky;
+    top: 0;
   }
 
 .ContenedorHeader__header__nav{

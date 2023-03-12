@@ -4,7 +4,7 @@
   src: url("../fonts/static/OpenSans/OpenSans-Bold.ttf"); }
 
 .ContenedorHeader__header {
-  width: 100vw;
+  width: 99vw;
   height: 12vh;
   background-color: #4d2517c7;
   box-shadow: 0 0 15px #000000;
@@ -13,6 +13,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
+
+.ContenedorHeader {
+  position: sticky;
+  top: 0; }
 
 .ContenedorHeader__header__nav {
   display: flex;
@@ -38,12 +42,14 @@
   top: 10px;
   text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000; }
 
+.MainIndex {
+  background-color: #333333b2; }
+
 .MainIndex__Flexbox {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 100vw;
-  background-color: #333333b2;
+  width: 99vw;
   height: 70vh; }
 
 .MainIndex__Flexbox__Texto {
@@ -65,6 +71,38 @@
 .imgmain {
   border-radius: 10px;
   box-shadow: 0 0 15px #ffffff; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #1e1e1e;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh; }
+
+.footer__p {
+  color: #f0f8ff;
+  position: relative;
+  left: 15px; }
+
+.iconos {
+  position: relative;
+  right: 15px; }
+
+.icon-ig {
+  content: url("https://api.iconify.design/mdi/instagram.svg?color=%23ffe&width=48&height=48"); }
+
+.icon-fb {
+  content: url("https://api.iconify.design/ph/facebook-logo-bold.svg?color=%23ffe&width=48&height=48"); }
+
+.icon-ws {
+  content: url("https://api.iconify.design/ic/baseline-whatsapp.svg?color=%23ffe&width=48&height=48"); }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%; }
 
 * {
   font-family: 'Open Sans', sans-serif;

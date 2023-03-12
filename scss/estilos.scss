@@ -10,6 +10,14 @@ $color-blanco: #bababa;
 
 @import "header";
 @import "main";
+@import "footer";
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
 
 *{
     font-family: 'Open Sans', sans-serif;
