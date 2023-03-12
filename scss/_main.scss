@@ -1,0 +1,45 @@
+$color-negro-main: #333333b2;
+$main-ancho: 90vw;
+
+.MainIndex__Titulo{
+    font-family: 'OpenSans';
+    color: $color-blanco;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000;
+}
+
+.MainIndex__Flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: $color-negro-main;
+    height: 70vh;
+   
+}
+.MainIndex__Flexbox__Texto{
+    width: 35vw;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.MainIndex__Flexbox__Texto__p{
+    color: $color-blanco;
+    font-size: 3rem;
+    
+}
+
+.MainIndex__Flexbox__Imagen{
+    width: 35vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgmain{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ffffff;
+}

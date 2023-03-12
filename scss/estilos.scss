@@ -1,0 +1,36 @@
+$color-negro: #333333;
+$color-marron: #4d2517c7;
+$color-blanco: #bababa;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face { 
+    font-family: "OpenSans"; 
+    src: url("../fonts/static/OpenSans/OpenSans-Bold.ttf"); 
+} 
+
+@import "header";
+@import "main";
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+p { 
+    font-family: "Mystery Quest", cursive; 
+}
+
+
+.body{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../assets/images/background.jpg");
+    background-repeat: no-repeat;/*no repite la imagen*/
+    background-size: cover;/*la imagen se estira para entrar en el contenedor*/
+    background-position: center;/*si la imagen no ocupa todo el contenedor se puede centrar*/
+    background-attachment: fixed;/*esto hace que la imagen siempre este fija, y el contenido se mueva*/
+}

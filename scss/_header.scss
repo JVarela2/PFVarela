@@ -1,0 +1,44 @@
+
+
+$header-ancho: 100vw;
+$header-largo: 12vh;
+
+
+.ContenedorHeader__header{
+    width: $header-ancho;
+    height: $header-largo;
+    background-color: $color-marron;
+    box-shadow: 0 0 15px #000000;
+    animation: animate__fadeInDown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.ContenedorHeader{
+  
+  }
+
+.ContenedorHeader__header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ContenedorHeader__header__nav__ulnav{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link{
+    font-family: 'Mystery Quest', cursive ;
+    font-size: 150%;
+
+}
