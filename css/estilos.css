@@ -18,17 +18,9 @@
   position: sticky;
   top: 0; }
 
-.ContenedorHeader__header__nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-
 .ContenedorHeader__header__nav__ulnav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; }
+  position: relative;
+  right: 28px; }
 
 .nav-link {
   font-family: 'Mystery Quest', cursive;
@@ -70,7 +62,8 @@
 
 .imgmain {
   border-radius: 10px;
-  box-shadow: 0 0 15px #ffffff; }
+  box-shadow: 0 0 15px #ffffff;
+  height: 479px; }
 
 .footer {
   display: flex;
@@ -97,6 +90,45 @@
 
 .icon-ws {
   content: url("https://api.iconify.design/ic/baseline-whatsapp.svg?color=%23ffe&width=48&height=48"); }
+
+@media screen and (max-width: 413px) {
+  .ContenedorHeader__header__nav__ulnav {
+    position: absolute;
+    up: 100px;
+    background-color: #4d2517c7; }
+  .ContenedorHeader__header {
+    width: 100vw;
+    height: 12vh;
+    background-color: #4d2517c7;
+    box-shadow: 0 0 15px #000000;
+    animation: animate__fadeInDown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MainIndex__Flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 40vh; }
+  .MainIndex__Flexbox__Texto {
+    width: 35vw;
+    align-content: center;
+    justify-content: center;
+    align-items: center; }
+  .MainIndex__Flexbox__Texto__p {
+    color: #bababa;
+    font-size: 1rem; }
+  .MainIndex__Flexbox__Imagen {
+    width: 35vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center; }
+  .imgmain {
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ffffff;
+    height: 320px; } }
 
 html {
   height: 100%; }

@@ -22,20 +22,11 @@ $header-largo: 12vh;
     top: 0;
   }
 
-.ContenedorHeader__header__nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-}
 
 .ContenedorHeader__header__nav__ulnav{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+position:relative;
+right: 28px;
 }
 
 .nav-link{

@@ -1,0 +1,56 @@
+@media  screen and (max-width: 413px) {
+    .ContenedorHeader__header__nav__ulnav{
+        position:absolute;
+        up: 100px;
+        background-color: $color-marron;
+        }
+
+    .ContenedorHeader__header{
+        width: 100vw;
+        height: $header-largo;
+        background-color: $color-marron;
+        box-shadow: 0 0 15px #000000;
+        animation: animate__fadeInDown;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+    
+    }
+
+    .MainIndex__Flexbox{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 40vh;
+       
+    }
+    .MainIndex__Flexbox__Texto{
+        width: 35vw;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .MainIndex__Flexbox__Texto__p{
+        color: $color-blanco;
+        font-size: 1rem;
+        
+    }
+    
+    .MainIndex__Flexbox__Imagen{
+        width: 35vh;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imgmain{
+        border-radius: 10px;
+        box-shadow: 0 0 15px #ffffff;
+        height: 320px;
+    }
+    
+}
