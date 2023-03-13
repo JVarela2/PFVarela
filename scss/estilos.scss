@@ -12,7 +12,7 @@ $color-blanco: #bababa;
 @import "main";
 @import "footer";
 @import "media-queries";
-
+@import "nosotros";
 html {
     height: 100%;
 }
@@ -27,7 +27,7 @@ body {
     padding: 0;
 }
 
-p { 
+p,h2,h3 { 
     font-family: "Mystery Quest", cursive; 
 }
 

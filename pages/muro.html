@@ -2,39 +2,42 @@
 <html lang="es"> 
     
 <head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index / PreEntrega2Varela</title>
-    <link rel="stylesheet" href="../css/hover-min.css" media="all">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="Stylesheet" href="../css/estilos.css">
-    <link rel="icon" href="../assets/images/icono.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index / PreEntrega3Varela</title>
+  <link rel="stylesheet" href="../css/hover-min.css" media="all">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/animate.min.css">
+  <link rel="icon" href="../assets/images/icono.ico" type="image/x-icon">
 </head>
     <body>
-        <header class="headermod HeaderModAdopta">
+      <section class="ContenedorHeader animate__animated animate__fadeInDown">
+        <header class="ContenedorHeader__header">
+          <a title="Index" href="#"><img src="../assets/images/Logo.png"height="70px" alt=""> </a>
             <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                  <a class="navbar-brand icono hvr-grow" href="#"> <img src="../assets/images/Logo.png" width="70px"  alt="logo"></a>
+                <div class="container ContenedorHeader__header__nav">
+                  
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnav">
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnav ContenedorHeader__header__nav__ulnav ">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link letranav hvr-grow" aria-current="page" href="../index.html">Inicio</a>
                       </li>
                       <li class="nav-item hvr-grow">
-                        <a class="nav-link" href="./nosotros.html">Motivos</a>
+                        <a class="nav-link letranav" href="./nosotros.html">Motivos</a>
                       </li>
                       <li class="nav-item hvr-grow">
-                        <a class="nav-link " href="./adopta.html">Adopta</a>
+                        <a class="nav-link letranav" href="./adopta.html">Adopta</a>
                       </li>
                       <li class="nav-item hvr-grow">
-                        <a class="nav-link active hvr-grow" href="./muro.html">Muro de Img</a>
+                        <a class="nav-link letranav active " href="./muro.html">Muro de Img</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link letranav dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Cuenta
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -92,14 +95,16 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="footertexto">
-              <img src="../assets/images/Logo.png" width="70px"  alt="logo">
-            <p>Todos los derechos reservados</p> 
-            <p>Instagram: TSR <img src="../assets/images/instagram_f_icon-icons.com_65485.png" alt="" height="30px"></p>
-            <p>Facebook: TSR  <img src="../assets/images/FB_icon-icons.com_65484.png" alt="" height="30px"></p>
-            <p>Youtube: TSR   <img src="../assets/images/YOUTUBE_icon-icons.com_65487.png" alt="" height="30px"></p>
-            </div>
-          </footer>
-          <script src="../jv/bootstrap.bundle.min.js"></script>
+          <p class="footer__p">2023 - Todos los derechos reservados</p>
+         <div class="iconos">
+
+          <a title="Instagram" href="#"><span class="button icon-ig hvr-grow-rotate" ></span> </a>
+          <a title="Facebook" href="#"><span class="button icon-fb hvr-grow-rotate" ></span> </a>
+          <a title="Whatsapp" href="#"><span class="button icon-ws hvr-grow-rotate" ></span> </a>
+
+         </div>
+
+        </footer>
+          <script src="../js/bootstrap.bundle.min.js"></script>
         
     </body>
