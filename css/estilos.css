@@ -91,7 +91,8 @@
 .icon-ws {
   content: url("https://api.iconify.design/ic/baseline-whatsapp.svg?color=%23ffe&width=48&height=48"); }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 412px) {
+  /* Index*/
   .ContenedorHeader__header__nav__ulnav {
     position: absolute;
     up: 100px;
@@ -128,9 +129,7 @@
   .imgmain {
     border-radius: 10px;
     box-shadow: 0 0 15px #ffffff;
-    height: 320px; }
-  .texto1 {
-    font-size: xx-small; } }
+    height: 320px; } }
 
 .MainNosotros__Titulo {
   font-family: 'OpenSans';
@@ -296,6 +295,188 @@ label {
 
 .ContenedorHeader {
   z-index: 100; }
+
+@media screen and (max-width: 412px) {
+  /*Nosotros*/
+  .MainNosotros__Titulo {
+    font-family: 'OpenSans';
+    color: #bababa;
+    text-align: center;
+    text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000; }
+  .MainNosotros__Container {
+    display: grid;
+    grid-template-areas: "imagen1" "texto1" "imagen2" "texto2" "imagen3" "texto3";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    gap: 50px; }
+  .imagen1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-area: imagen1; }
+  .texto1 {
+    background-color: #bababa9f;
+    grid-area: texto1;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px; }
+  .imagen2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-area: imagen2; }
+  .texto2 {
+    grid-area: texto2;
+    background-color: #bababa9f;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px; }
+  .imagen3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-area: imagen3; }
+  .texto3 {
+    background-color: #bababa9f;
+    grid-area: texto3;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px; }
+  .imag {
+    border-radius: 20px; }
+  .MainMotivos {
+    background-color: #333333b2; }
+  .textopnos {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 412px) {
+  .icon-email {
+    content: url("https://api.iconify.design/ic/outline-email.svg?color=white&width=64&height=64"); }
+  .ContactoMain__Texto {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; }
+  .TituloContacto {
+    font-family: 'OpenSans';
+    color: #bababa;
+    text-align: center;
+    text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000; }
+  .ContactoMain {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #333333b2;
+    width: 100vw; }
+  .ContactoMain__Formulario {
+    background-color: #bababaad;
+    position: relative;
+    left: 10px; }
+  .BotonEnviar {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 4px; }
+  .emailtexto {
+    color: #bababa;
+    font-size: 1.5rem; }
+  #footer {
+    position: relative;
+    top: 232px; } }
+
+@media (min-width: 413px) and (max-width: 1024px) {
+  .ContenedorHeader__header__nav__ulnav {
+    position: absolute;
+    up: 100px;
+    background-color: #4d2517c7; }
+  .ContenedorHeader__header {
+    width: 100vw;
+    height: 12vh;
+    background-color: #4d2517c7;
+    box-shadow: 0 0 15px #000000;
+    animation: animate__fadeInDown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MainIndex__Flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 40vh; }
+  .MainIndex__Flexbox__Texto {
+    width: 35vw;
+    align-content: center;
+    justify-content: center;
+    align-items: center; }
+  .MainIndex__Flexbox__Texto__p {
+    color: #bababa;
+    font-size: 1rem; }
+  .MainIndex__Flexbox__Imagen {
+    width: 35vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center; }
+  .imgmain {
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ffffff;
+    height: 320px; } }
+
+@media (min-width: 413px) and (max-width: 1024px) {
+  .MainAdopta, .uladopta, figure {
+    margin: 0;
+    padding: 0; }
+  .uladopta {
+    list-style: none;
+    display: flex; }
+  .uladopta .liadopta {
+    width: 48%; }
+  .uladopta .liadopta figure {
+    padding: 5px;
+    position: relative; }
+  .uladopta .liadopta figure:hover figcaption {
+    display: block; }
+  .uladopta .liadopta figcaption {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: #4d2517d9;
+    text-align: center;
+    padding: 15px;
+    font: 20px/30px;
+    color: #bababa; }
+  .adoptaimagen {
+    width: 100%; }
+  .tituloadopta {
+    font-family: 'OpenSans';
+    color: #bababa;
+    text-align: center;
+    text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000; }
+  .padopta {
+    color: #bababa;
+    font-size: 2rem;
+    text-align: center;
+    height: 100%; }
+  .MainAdopta {
+    background-color: #333333b2; }
+  .relleno {
+    background-color: #333333b2; }
+  .footer.footeradopta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw; } }
+
+@media (min-width: 413px) and (max-width: 1024px) {
+  .body.bodyadopta {
+    height: 100vh; }
+  #footer, #footer2 {
+    position: absolute;
+    top: 85vh;
+    width: 100vw; } }
 
 html {
   height: 100%; }

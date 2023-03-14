@@ -1,4 +1,5 @@
-@media  screen and (max-width: 413px) {
+$color-blanco-nosotros: #bababa9f;
+@media  screen and (max-width: 412px) { /* Index*/
     .ContenedorHeader__header__nav__ulnav{
         position:absolute;
         up: 100px;
@@ -52,7 +53,10 @@
         box-shadow: 0 0 15px #ffffff;
         height: 320px;
     }
-    .texto1{
-        font-size: xx-small;
-    }
+    
+
 }
+
+
+
+    

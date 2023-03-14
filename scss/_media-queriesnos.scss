@@ -1,0 +1,85 @@
+@media  screen and (max-width: 412px){
+    /*Nosotros*/
+    .MainNosotros__Titulo{
+        font-family: 'OpenSans';
+        color: $color-blanco;
+        text-align: center;
+        text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000;
+    }
+    
+    .MainNosotros__Container{
+        display: grid;
+        grid-template-areas: 
+        "imagen1"
+        "texto1"
+        "imagen2"
+        "texto2"
+        "imagen3"
+        "texto3";
+        grid-template-rows: auto;
+        grid-template-columns: auto ;
+        gap: 50px;
+        
+    
+    }
+    
+    .imagen1{
+        
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        grid-area: imagen1;
+    }
+    
+    .texto1{
+        background-color: $color-blanco-nosotros;
+        grid-area: texto1;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 10px;
+    }
+    
+    .imagen2{
+        
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        grid-area: imagen2;
+    }
+    
+    .texto2{
+        grid-area: texto2;
+        background-color: $color-blanco-nosotros;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 10px;
+    }
+    
+    .imagen3{
+        
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        grid-area: imagen3;
+    }
+    
+    .texto3{
+        background-color: $color-blanco-nosotros;
+        grid-area: texto3;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 10px;
+    }
+    
+    .imag{
+        
+        border-radius: 20px;
+    }
+    
+    .MainMotivos{
+        background-color: $color-negro-main;
+    }
+    .textopnos{
+        font-size: 1rem;
+    }
+}

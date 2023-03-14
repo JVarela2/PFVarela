@@ -1,0 +1,143 @@
+@media (min-width: 413px) and (max-width: 1024px){
+
+    
+    .ContenedorHeader__header__nav__ulnav{
+        position:absolute;
+        up: 100px;
+        background-color: $color-marron;
+        }
+
+    .ContenedorHeader__header{
+        width: 100vw;
+        height: $header-largo;
+        background-color: $color-marron;
+        box-shadow: 0 0 15px #000000;
+        animation: animate__fadeInDown;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+    
+    }
+
+    .MainIndex__Flexbox{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 40vh;
+       
+    }
+    .MainIndex__Flexbox__Texto{
+        width: 35vw;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .MainIndex__Flexbox__Texto__p{
+        color: $color-blanco;
+        font-size: 1rem;
+        
+    }
+    
+    .MainIndex__Flexbox__Imagen{
+        width: 35vh;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imgmain{
+        border-radius: 10px;
+        box-shadow: 0 0 15px #ffffff;
+        height: 320px;
+    }
+
+}
+
+@media (min-width: 413px) and (max-width: 1024px){
+    $color-marron-adopta: #4d2517d9;
+
+.MainAdopta, .uladopta, figure{
+    margin: 0;
+    padding: 0;
+}
+
+.uladopta{
+    list-style: none;
+    display: flex;
+}
+
+.uladopta .liadopta{
+
+    width: 48%;
+}
+
+.uladopta .liadopta figure{
+    padding: 5px;
+    position: relative;
+}
+.uladopta .liadopta figure:hover figcaption{
+    display: block;
+}
+.uladopta .liadopta figcaption{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: $color-marron-adopta;
+    text-align: center;
+    padding: 15px;
+    font: 20px/30px;
+    color: $color-blanco;
+}
+.adoptaimagen{
+
+    width: 100%;
+    
+}
+
+.tituloadopta{
+    font-family: 'OpenSans';
+    color: $color-blanco;
+    text-align: center;
+    text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000;
+}
+
+.padopta{
+    color: $color-blanco;
+    font-size: 2rem;
+    text-align: center;
+    height: 100%;
+}
+
+.MainAdopta{
+    background-color: $color-negro-main;
+}
+
+.relleno{
+    background-color: $color-negro-main;
+}
+
+.footer.footeradopta{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+}
+
+@media (min-width: 413px) and (max-width: 1024px){
+    .body.bodyadopta{
+        height: 100vh;
+    }
+    #footer,#footer2{
+        position: absolute;
+        top: 85vh;
+        width: 100vw;
+    }
+}
