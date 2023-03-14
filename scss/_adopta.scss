@@ -52,4 +52,13 @@ $color-marron-adopta: #4d2517d9;
     color: $color-blanco;
     font-size: 2rem;
     text-align: center;
+    height: 100%;
+}
+
+.MainAdopta{
+    background-color: $color-negro-main;
+}
+
+.relleno{
+    background-color: $color-negro-main;
 }

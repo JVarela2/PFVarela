@@ -182,6 +182,9 @@
 .imag {
   border-radius: 20px; }
 
+.MainMotivos {
+  background-color: #333333b2; }
+
 .MainAdopta, .uladopta, figure {
   margin: 0;
   padding: 0; }
@@ -225,7 +228,14 @@
 .padopta {
   color: #bababa;
   font-size: 2rem;
-  text-align: center; }
+  text-align: center;
+  height: 100%; }
+
+.MainAdopta {
+  background-color: #333333b2; }
+
+.relleno {
+  background-color: #333333b2; }
 
 .icon-email {
   content: url("https://api.iconify.design/ic/outline-email.svg?color=white&width=64&height=64"); }
@@ -266,12 +276,12 @@
   position: relative;
   top: 232px; }
 
-.ContenedorHeader__header {
+.ContenedorHeader__header.arreglo {
   width: 100vw; }
 
 #footer2 {
   position: relative;
-  top: 363px; }
+  top: 372.5px; }
 
 label {
   display: inline-block;
