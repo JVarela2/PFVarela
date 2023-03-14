@@ -23,6 +23,7 @@ $color-blanco-nosotros: #bababa9f;
 }
 
 .imagen1{
+    
     display: flex;
     justify-content: center;
     align-content: center;
@@ -32,9 +33,11 @@ $color-blanco-nosotros: #bababa9f;
 .texto1{
     background-color: $color-blanco-nosotros;
     grid-area: texto1;
+    border-radius: 10px;
 }
 
 .imagen2{
+    
     display: flex;
     justify-content: center;
     align-content: center;
@@ -44,9 +47,11 @@ $color-blanco-nosotros: #bababa9f;
 .texto2{
     grid-area: texto2;
     background-color: $color-blanco-nosotros;
+    border-radius: 10px;
 }
 
 .imagen3{
+    
     display: flex;
     justify-content: center;
     align-content: center;
@@ -56,14 +61,10 @@ $color-blanco-nosotros: #bababa9f;
 .texto3{
     background-color: $color-blanco-nosotros;
     grid-area: texto3;
+    border-radius: 10px;
 }
 
-.imagen4{
-
-    grid-area: imagen4;
+.imag{
+    border-radius: 20px;
 }
 
-.texto4{
-    background-color: $color-blanco;
-    grid-area: texto4;
-}

@@ -154,7 +154,8 @@
 
 .texto1 {
   background-color: #bababa9f;
-  grid-area: texto1; }
+  grid-area: texto1;
+  border-radius: 10px; }
 
 .imagen2 {
   display: flex;
@@ -164,7 +165,8 @@
 
 .texto2 {
   grid-area: texto2;
-  background-color: #bababa9f; }
+  background-color: #bababa9f;
+  border-radius: 10px; }
 
 .imagen3 {
   display: flex;
@@ -174,14 +176,113 @@
 
 .texto3 {
   background-color: #bababa9f;
-  grid-area: texto3; }
+  grid-area: texto3;
+  border-radius: 10px; }
 
-.imagen4 {
-  grid-area: imagen4; }
+.imag {
+  border-radius: 20px; }
 
-.texto4 {
-  background-color: #bababa;
-  grid-area: texto4; }
+.MainAdopta, .uladopta, figure {
+  margin: 0;
+  padding: 0; }
+
+.uladopta {
+  list-style: none;
+  display: flex; }
+
+.uladopta .liadopta {
+  width: 48%; }
+
+.uladopta .liadopta figure {
+  padding: 5px;
+  position: relative; }
+
+.uladopta .liadopta figure:hover figcaption {
+  display: block; }
+
+.uladopta .liadopta figcaption {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-color: #4d2517d9;
+  text-align: center;
+  padding: 15px;
+  font: 20px/30px;
+  color: #bababa; }
+
+.adoptaimagen {
+  width: 100%; }
+
+.tituloadopta {
+  font-family: 'OpenSans';
+  color: #bababa;
+  text-align: center;
+  text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000; }
+
+.padopta {
+  color: #bababa;
+  font-size: 2rem;
+  text-align: center; }
+
+.icon-email {
+  content: url("https://api.iconify.design/ic/outline-email.svg?color=white&width=64&height=64"); }
+
+.ContactoMain__Texto {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+
+.TituloContacto {
+  font-family: 'OpenSans';
+  color: #bababa;
+  text-align: center;
+  text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000; }
+
+.ContactoMain {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  background-color: #333333b2; }
+
+.ContactoMain__Formulario {
+  background-color: #bababaad;
+  position: relative;
+  left: 10px; }
+
+.BotonEnviar {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 4px; }
+
+.emailtexto {
+  color: #bababa;
+  font-size: 1.5rem; }
+
+#footer {
+  position: relative;
+  top: 232px; }
+
+#footer2 {
+  position: relative;
+  top: 363px; }
+
+label {
+  display: inline-block;
+  width: 80px; }
+
+.formulario {
+  background-color: #bababab2; }
+
+#header {
+  position: relative;
+  left: 10px;
+  display: block;
+  height: 120%;
+  overflow-x: auto; }
 
 html {
   height: 100%; }

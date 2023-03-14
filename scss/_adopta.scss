@@ -1,0 +1,55 @@
+$color-marron-adopta: #4d2517d9;
+
+.MainAdopta, .uladopta, figure{
+    margin: 0;
+    padding: 0;
+}
+
+.uladopta{
+    list-style: none;
+    display: flex;
+}
+
+.uladopta .liadopta{
+
+    width: 48%;
+}
+
+.uladopta .liadopta figure{
+    padding: 5px;
+    position: relative;
+}
+.uladopta .liadopta figure:hover figcaption{
+    display: block;
+}
+.uladopta .liadopta figcaption{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: $color-marron-adopta;
+    text-align: center;
+    padding: 15px;
+    font: 20px/30px;
+    color: $color-blanco;
+}
+.adoptaimagen{
+
+    width: 100%;
+    
+}
+
+.tituloadopta{
+    font-family: 'OpenSans';
+    color: $color-blanco;
+    text-align: center;
+    text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000;
+}
+
+.padopta{
+    color: $color-blanco;
+    font-size: 2rem;
+    text-align: center;
+}

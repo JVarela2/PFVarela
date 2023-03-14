@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="../css/animate.min.css">
   <link rel="icon" href="../assets/images/icono.ico" type="image/x-icon">
 </head>
-    <body>
+    <body class="body">
       <section class="ContenedorHeader animate__animated animate__fadeInDown">
         <header class="ContenedorHeader__header">
           <a title="Index" href="#"><img src="../assets/images/Logo.png"height="70px" alt=""> </a>
@@ -34,7 +34,7 @@
                         <a class="nav-link letranav" href="./adopta.html">Adopta</a>
                       </li>
                       <li class="nav-item hvr-grow">
-                        <a class="nav-link letranav " href="./muro.html">Muro de Img</a>
+                        <a class="nav-link letranav " href="./contacto.html">Contacto</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link letranav dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,29 +51,32 @@
               </nav>
         </header>
         <section class="contenedorregis">
-        <main class="container-fluid mainregis">
+        <main class="container-fluid">
            
             <div class="formulario">
+             
                 <h1>Registrate para enterarte de todo!</h1>
+                <div class="formularioflex">
                 <form action="">
                     <div>
-                    <label for="nombre"></label>
+                    <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
                     </div>
                     <div>
-                    <label for="email"></label>
+                    <label for="email">Email</label>
                     <input type="email" placeholder="Email" name="email" id="email">
                     </div>
                     <div>
-                    <label for="pass"></label>
+                    <label for="pass">Contraseña</label>
                     <input id="pass" name="password" placeholder="Contraseña" type="password" required>
                     </div>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" class="botonregis">
                 </form>
+              </div>
             </div>
         </main>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer2">
       <p class="footer__p">2023 - Todos los derechos reservados</p>
      <div class="iconos">
 

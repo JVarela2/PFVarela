@@ -1,0 +1,50 @@
+$color-blanco-contacto: #bababaad;
+
+.icon-email{
+    content: url('https://api.iconify.design/ic/outline-email.svg?color=white&width=64&height=64');
+}
+
+.ContactoMain__Texto{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.TituloContacto{
+    font-family: 'OpenSans';
+  color: #bababa;
+  text-align: center;
+  text-shadow: -1px -1px 0.5px #000, 1px 1px 0.5px #000, -1px 1px 0.5px #000, 1px -1px 0.5px #000;
+}
+
+.ContactoMain{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: $color-negro-main;
+}
+
+.ContactoMain__Formulario{
+    background-color: $color-blanco-contacto;
+    position: relative;
+    left: 10px;
+}
+
+
+
+.BotonEnviar{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 4px;
+}
+
+.emailtexto{
+    color: $color-blanco;
+    font-size: 1.5rem;
+}
+
+#footer {
+    position:relative;
+    top: 232px;
+}
