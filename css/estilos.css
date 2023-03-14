@@ -266,6 +266,9 @@
   position: relative;
   top: 232px; }
 
+.ContenedorHeader__header {
+  width: 100vw; }
+
 #footer2 {
   position: relative;
   top: 363px; }
@@ -277,12 +280,9 @@ label {
 .formulario {
   background-color: #bababab2; }
 
-#header {
+.botonregis {
   position: relative;
-  left: 10px;
-  display: block;
-  height: 120%;
-  overflow-x: auto; }
+  left: 220px; }
 
 html {
   height: 100%; }
