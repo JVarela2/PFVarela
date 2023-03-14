@@ -284,6 +284,9 @@ label {
   position: relative;
   left: 220px; }
 
+.ContenedorHeader {
+  z-index: 100; }
+
 html {
   height: 100%; }
 
